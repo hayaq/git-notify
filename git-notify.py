@@ -99,3 +99,4 @@ smtp.starttls()
 smtp.login(gmail_account, gmail_password)
 smtp.sendmail(gmail_account, email_list, msg.as_string())
 smtp.quit()
+
